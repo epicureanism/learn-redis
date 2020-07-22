@@ -13,7 +13,9 @@ docker exec -it redis-lab bash
 
 In docker cli
 ```sh
-# redis-cli
+redis-cli
+
+# Entering redis-cli mode
 127.0.0.1:6379> ping
 PONG
 127.0.0.1:6379> set hello "hello world"
